@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cal-layout">
+        <div class="title-page">
+            
+            <h1>Calculator</h1>
+       
+        </div>
+
+        <div class="result-area">
+            <label id="result" class="result-text">Result</label>
+        </div>
+
+        <div class="input-area">
+            <input type="text"  class="input-line" id="first-number">
+            <select name="" id="operator">
+                <option value="addition">+</option>
+                <option value="subtraction">-</option>
+                <option value="multiplication">*</option>
+                <option value="division">/</option>
+            </select>
+            <input type="text"  class="input-line" id="second-number">
+        </div>
+
+        <button class="cal-btn" onclick="cal()">Calculate</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
